@@ -1,1 +1,0 @@
-setLife(1
