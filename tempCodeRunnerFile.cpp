@@ -1,0 +1,1 @@
+setLife(1
