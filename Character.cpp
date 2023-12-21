@@ -26,5 +26,10 @@ void Character::takePotion()
 
 void Character::display()
 {
-    cout << name << " a " << life << " points de vie." << endl;
+    cout << name << " est un personnage et a " << life << " points de vie." << endl;
+}
+
+Character::~Character()
+{
+    
 }

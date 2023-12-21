@@ -15,5 +15,7 @@ public:
     Character(string newName, int newLife);
     void rename(string newName);
     void takePotion();
-    void display();
+    virtual void display();
+    virtual string getWeapon() = 0;
+    virtual ~Character(); // Obligatoire pour supprimer le pointeur d'objet (delete)
 };

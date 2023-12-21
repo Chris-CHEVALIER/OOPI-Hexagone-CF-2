@@ -13,4 +13,5 @@ public:
     void takeManaPotion();
     void setLife(int newLife);
     void display();
+    string getWeapon(); // Oublié !
 };

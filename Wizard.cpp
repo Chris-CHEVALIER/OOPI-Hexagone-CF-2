@@ -32,3 +32,8 @@ void Wizard::display()
     Character::display();
     cout << "C'est un mage qui a " << mana << " de points de magie." << endl;
 }
+
+string Wizard::getWeapon()
+{
+    return "Bâton de magie";
+}
